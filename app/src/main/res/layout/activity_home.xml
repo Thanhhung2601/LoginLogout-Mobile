@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="navigateListView"
     tools:context=".Home">
 
     <RelativeLayout
@@ -35,6 +36,7 @@
             android:layout_centerHorizontal="false"
             android:layout_centerVertical="true"
             android:layout_marginRight="14dp"
+            android:onClick="navigateListView"
             app:srcCompat="@drawable/more" />
 
     </RelativeLayout>
